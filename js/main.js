@@ -7,5 +7,5 @@ $win.on('scroll', function () {
 	
 	/*console.log(scrollPos);  For debugging*/
 	$sun.css('transform', 'rotate('  + scrollPos / 5 + 'deg)');
-	$sunSection.css('background-position', 'center ' + scrollPos / 3 + 'px');
+	$sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px');
 });
