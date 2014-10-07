@@ -13,6 +13,5 @@ $win.on('scroll', function () {
 });
 
 $dipperSection.waypoint(function () {
-	console.log('Visible!');
-	
-});
+	$dipper.addClass('js-dipper-fade');
+}, { offset: '50%' });

@@ -29,8 +29,11 @@ section {
 }
 /* Don't forget the other prefixes! */
 .js-dipper-fade {
-	-webkit-animation: dipper-fade 1s linear;
+	-webkit-animation: dipper-fade 1s linear forwards;
 }
+/*
+animation-fill-mode: forwards;
+Will tell the animation to stay at it's end state after completing*/
 
 /* Don't forget the other prefixes! */
 @-webkit-keyframes dipper-fade {
