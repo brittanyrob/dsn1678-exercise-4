@@ -25,4 +25,14 @@ section {
 
 .dipper {
 	width: 200px;
+	opacity: 0;
+}
+
+@-webkit-keyframes dipper-fade {
+	0% {
+		opacity: 0;
+}
+	100% {
+		opacity: 1;
+	}
 }
