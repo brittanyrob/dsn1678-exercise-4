@@ -44,3 +44,30 @@ Will tell the animation to stay at it's end state after completing*/
 		opacity: 1;
 	}
 }
+
+.shuttle {
+	width: 200px;
+	opacity: 0;
+}
+
+.shuttle-section {
+	background-color: #f6a500;
+}
+
+.js-shuttle-animate {
+	-webkit-animation: shuttle-animate 1s linear forwards;
+}
+
+@-webkit-keyframes shuttle-animate {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+}	
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+}
