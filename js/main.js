@@ -1,7 +1,9 @@
 var $win = $(window);
+var $sun = $('.sun');
 
 $win.on('scroll', function () {
-	var scrollPS = $win.scrollTop();
+	var scrollPos = $win.scrollTop();
 	
-	console.log('Scrolling!');
+	/*console.log(scrollPos);  For debugging*/
+	$sun.css('transform', 'rotate('  + scrollPos + ' deg)');
 });
